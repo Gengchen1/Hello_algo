@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zgc/Cpp_code/Hello_algo/src/iteration.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/iteration.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/main.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/main.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/pointer.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/pointer.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/recursion.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/recursion.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/space_complexity.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/time_complexity.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o"
-  "/home/zgc/Cpp_code/Hello_algo/src/worst_best_time_complexity.cpp" "/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o"
+  "/home/zgc/Hello_algo/src/iteration.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/iteration.cpp.o"
+  "/home/zgc/Hello_algo/src/main.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/main.cpp.o"
+  "/home/zgc/Hello_algo/src/recursion.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/recursion.cpp.o"
+  "/home/zgc/Hello_algo/src/space_complexity.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o"
+  "/home/zgc/Hello_algo/src/time_complexity.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o"
+  "/home/zgc/Hello_algo/src/worst_best_time_complexity.cpp" "/home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

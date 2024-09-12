@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zgc/Cpp_code/Hello_algo
+CMAKE_SOURCE_DIR = /home/zgc/Hello_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zgc/Cpp_code/Hello_algo/build
+CMAKE_BINARY_DIR = /home/zgc/Hello_algo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Hello_algo.dir/depend.make
@@ -59,100 +59,86 @@ include CMakeFiles/Hello_algo.dir/flags.make
 
 CMakeFiles/Hello_algo.dir/src/iteration.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/iteration.cpp.o: ../src/iteration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hello_algo.dir/src/iteration.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/iteration.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/iteration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hello_algo.dir/src/iteration.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/iteration.cpp.o -c /home/zgc/Hello_algo/src/iteration.cpp
 
 CMakeFiles/Hello_algo.dir/src/iteration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/iteration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/iteration.cpp > CMakeFiles/Hello_algo.dir/src/iteration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/iteration.cpp > CMakeFiles/Hello_algo.dir/src/iteration.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/iteration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/iteration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/iteration.cpp -o CMakeFiles/Hello_algo.dir/src/iteration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/iteration.cpp -o CMakeFiles/Hello_algo.dir/src/iteration.cpp.s
 
 CMakeFiles/Hello_algo.dir/src/main.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hello_algo.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/main.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hello_algo.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/main.cpp.o -c /home/zgc/Hello_algo/src/main.cpp
 
 CMakeFiles/Hello_algo.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/main.cpp > CMakeFiles/Hello_algo.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/main.cpp > CMakeFiles/Hello_algo.dir/src/main.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/main.cpp -o CMakeFiles/Hello_algo.dir/src/main.cpp.s
-
-CMakeFiles/Hello_algo.dir/src/pointer.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
-CMakeFiles/Hello_algo.dir/src/pointer.cpp.o: ../src/pointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hello_algo.dir/src/pointer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/pointer.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/pointer.cpp
-
-CMakeFiles/Hello_algo.dir/src/pointer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/pointer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/pointer.cpp > CMakeFiles/Hello_algo.dir/src/pointer.cpp.i
-
-CMakeFiles/Hello_algo.dir/src/pointer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/pointer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/pointer.cpp -o CMakeFiles/Hello_algo.dir/src/pointer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/main.cpp -o CMakeFiles/Hello_algo.dir/src/main.cpp.s
 
 CMakeFiles/Hello_algo.dir/src/recursion.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/recursion.cpp.o: ../src/recursion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Hello_algo.dir/src/recursion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/recursion.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/recursion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hello_algo.dir/src/recursion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/recursion.cpp.o -c /home/zgc/Hello_algo/src/recursion.cpp
 
 CMakeFiles/Hello_algo.dir/src/recursion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/recursion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/recursion.cpp > CMakeFiles/Hello_algo.dir/src/recursion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/recursion.cpp > CMakeFiles/Hello_algo.dir/src/recursion.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/recursion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/recursion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/recursion.cpp -o CMakeFiles/Hello_algo.dir/src/recursion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/recursion.cpp -o CMakeFiles/Hello_algo.dir/src/recursion.cpp.s
 
 CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o: ../src/space_complexity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/space_complexity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o -c /home/zgc/Hello_algo/src/space_complexity.cpp
 
 CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/space_complexity.cpp > CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/space_complexity.cpp > CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/space_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/space_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.s
 
 CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o: ../src/time_complexity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/time_complexity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o -c /home/zgc/Hello_algo/src/time_complexity.cpp
 
 CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/time_complexity.cpp > CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/time_complexity.cpp > CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/time_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/time_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.s
 
 CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o: CMakeFiles/Hello_algo.dir/flags.make
 CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o: ../src/worst_best_time_complexity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o -c /home/zgc/Cpp_code/Hello_algo/src/worst_best_time_complexity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o -c /home/zgc/Hello_algo/src/worst_best_time_complexity.cpp
 
 CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Cpp_code/Hello_algo/src/worst_best_time_complexity.cpp > CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zgc/Hello_algo/src/worst_best_time_complexity.cpp > CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.i
 
 CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Cpp_code/Hello_algo/src/worst_best_time_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zgc/Hello_algo/src/worst_best_time_complexity.cpp -o CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.s
 
 # Object files for target Hello_algo
 Hello_algo_OBJECTS = \
 "CMakeFiles/Hello_algo.dir/src/iteration.cpp.o" \
 "CMakeFiles/Hello_algo.dir/src/main.cpp.o" \
-"CMakeFiles/Hello_algo.dir/src/pointer.cpp.o" \
 "CMakeFiles/Hello_algo.dir/src/recursion.cpp.o" \
 "CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o" \
 "CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o" \
@@ -163,14 +149,13 @@ Hello_algo_EXTERNAL_OBJECTS =
 
 Hello_algo: CMakeFiles/Hello_algo.dir/src/iteration.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/src/main.cpp.o
-Hello_algo: CMakeFiles/Hello_algo.dir/src/pointer.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/src/recursion.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/src/worst_best_time_complexity.cpp.o
 Hello_algo: CMakeFiles/Hello_algo.dir/build.make
 Hello_algo: CMakeFiles/Hello_algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Hello_algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Hello_algo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello_algo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +168,6 @@ CMakeFiles/Hello_algo.dir/clean:
 .PHONY : CMakeFiles/Hello_algo.dir/clean
 
 CMakeFiles/Hello_algo.dir/depend:
-	cd /home/zgc/Cpp_code/Hello_algo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zgc/Cpp_code/Hello_algo /home/zgc/Cpp_code/Hello_algo /home/zgc/Cpp_code/Hello_algo/build /home/zgc/Cpp_code/Hello_algo/build /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/Hello_algo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zgc/Hello_algo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zgc/Hello_algo /home/zgc/Hello_algo /home/zgc/Hello_algo/build /home/zgc/Hello_algo/build /home/zgc/Hello_algo/build/CMakeFiles/Hello_algo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Hello_algo.dir/depend
 

@@ -48,7 +48,7 @@ void algorithm1(int n)
 /* 递归函数中，需要统计帧栈空间  */
 
 /* 常数阶 */
-void constant(int n)
+void space_constant(int n)
 {
     // 常量、变量、对象占用 O(1) 空间
     const int a = 0;
@@ -67,7 +67,7 @@ void constant(int n)
     }
 }
 /* 线性阶 */
-void linear(int n)
+void space_linear(int n)
 {
     // 长度为 n 的数组占用 O(n) 空间
     vector<int> nums(n);
@@ -94,7 +94,7 @@ void linearRecur(int n)
 }
 
 /* 平方阶 循环实现*/
-void quadratic(int n)
+void space_quadratic(int n)
 {
     // 二维列表占用 O(n^2) 空间
     vector<vector<int>> numMatrix;

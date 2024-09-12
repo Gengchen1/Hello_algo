@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zgc/Cpp_code/Hello_algo
+CMAKE_SOURCE_DIR = /home/zgc/Hello_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zgc/Cpp_code/Hello_algo/build
+CMAKE_BINARY_DIR = /home/zgc/Hello_algo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles /home/zgc/Hello_algo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,33 +176,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/pointer.o: src/pointer.cpp.o
-
-.PHONY : src/pointer.o
-
-# target to build an object file
-src/pointer.cpp.o:
-	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/pointer.cpp.o
-.PHONY : src/pointer.cpp.o
-
-src/pointer.i: src/pointer.cpp.i
-
-.PHONY : src/pointer.i
-
-# target to preprocess a source file
-src/pointer.cpp.i:
-	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/pointer.cpp.i
-.PHONY : src/pointer.cpp.i
-
-src/pointer.s: src/pointer.cpp.s
-
-.PHONY : src/pointer.s
-
-# target to generate assembly for a file
-src/pointer.cpp.s:
-	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/pointer.cpp.s
-.PHONY : src/pointer.cpp.s
 
 src/recursion.o: src/recursion.cpp.o
 
@@ -327,9 +300,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/pointer.o"
-	@echo "... src/pointer.i"
-	@echo "... src/pointer.s"
 	@echo "... src/recursion.o"
 	@echo "... src/recursion.i"
 	@echo "... src/recursion.s"

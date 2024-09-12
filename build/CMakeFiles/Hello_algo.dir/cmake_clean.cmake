@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hello_algo.dir/src/iteration.cpp.o"
   "CMakeFiles/Hello_algo.dir/src/main.cpp.o"
-  "CMakeFiles/Hello_algo.dir/src/pointer.cpp.o"
   "CMakeFiles/Hello_algo.dir/src/recursion.cpp.o"
   "CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.o"
   "CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.o"

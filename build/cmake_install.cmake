@@ -1,4 +1,4 @@
-# Install script for directory: /home/zgc/Cpp_code/Hello_algo
+# Install script for directory: /home/zgc/Hello_algo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zgc/Cpp_code/Hello_algo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zgc/Hello_algo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
