@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/zgc/Hello_algo/src/space_complexity.cpp
-vector
--
-iostream
--
-unordered_map
--
+../include/Hello_algo.h
 string
 -
+vector
+-
+
+/home/zgc/Cpp_code/Hello_algo/src/main.cpp
+iostream
+-
+vector
+-
+Hello_algo.h
+/home/zgc/Cpp_code/Hello_algo/src/Hello_algo.h
 

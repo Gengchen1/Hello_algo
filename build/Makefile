@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zgc/Hello_algo
+CMAKE_SOURCE_DIR = /home/zgc/Cpp_code/Hello_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zgc/Hello_algo/build
+CMAKE_BINARY_DIR = /home/zgc/Cpp_code/Hello_algo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles /home/zgc/Hello_algo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,168 @@ Hello_algo/fast:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/build
 .PHONY : Hello_algo/fast
 
+src/array_deque.o: src/array_deque.cpp.o
+
+.PHONY : src/array_deque.o
+
+# target to build an object file
+src/array_deque.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_deque.cpp.o
+.PHONY : src/array_deque.cpp.o
+
+src/array_deque.i: src/array_deque.cpp.i
+
+.PHONY : src/array_deque.i
+
+# target to preprocess a source file
+src/array_deque.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_deque.cpp.i
+.PHONY : src/array_deque.cpp.i
+
+src/array_deque.s: src/array_deque.cpp.s
+
+.PHONY : src/array_deque.s
+
+# target to generate assembly for a file
+src/array_deque.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_deque.cpp.s
+.PHONY : src/array_deque.cpp.s
+
+src/array_hash_map.o: src/array_hash_map.cpp.o
+
+.PHONY : src/array_hash_map.o
+
+# target to build an object file
+src/array_hash_map.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_hash_map.cpp.o
+.PHONY : src/array_hash_map.cpp.o
+
+src/array_hash_map.i: src/array_hash_map.cpp.i
+
+.PHONY : src/array_hash_map.i
+
+# target to preprocess a source file
+src/array_hash_map.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_hash_map.cpp.i
+.PHONY : src/array_hash_map.cpp.i
+
+src/array_hash_map.s: src/array_hash_map.cpp.s
+
+.PHONY : src/array_hash_map.s
+
+# target to generate assembly for a file
+src/array_hash_map.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_hash_map.cpp.s
+.PHONY : src/array_hash_map.cpp.s
+
+src/array_queue.o: src/array_queue.cpp.o
+
+.PHONY : src/array_queue.o
+
+# target to build an object file
+src/array_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_queue.cpp.o
+.PHONY : src/array_queue.cpp.o
+
+src/array_queue.i: src/array_queue.cpp.i
+
+.PHONY : src/array_queue.i
+
+# target to preprocess a source file
+src/array_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_queue.cpp.i
+.PHONY : src/array_queue.cpp.i
+
+src/array_queue.s: src/array_queue.cpp.s
+
+.PHONY : src/array_queue.s
+
+# target to generate assembly for a file
+src/array_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_queue.cpp.s
+.PHONY : src/array_queue.cpp.s
+
+src/array_stack.o: src/array_stack.cpp.o
+
+.PHONY : src/array_stack.o
+
+# target to build an object file
+src/array_stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_stack.cpp.o
+.PHONY : src/array_stack.cpp.o
+
+src/array_stack.i: src/array_stack.cpp.i
+
+.PHONY : src/array_stack.i
+
+# target to preprocess a source file
+src/array_stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_stack.cpp.i
+.PHONY : src/array_stack.cpp.i
+
+src/array_stack.s: src/array_stack.cpp.s
+
+.PHONY : src/array_stack.s
+
+# target to generate assembly for a file
+src/array_stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/array_stack.cpp.s
+.PHONY : src/array_stack.cpp.s
+
+src/exersice.o: src/exersice.cpp.o
+
+.PHONY : src/exersice.o
+
+# target to build an object file
+src/exersice.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/exersice.cpp.o
+.PHONY : src/exersice.cpp.o
+
+src/exersice.i: src/exersice.cpp.i
+
+.PHONY : src/exersice.i
+
+# target to preprocess a source file
+src/exersice.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/exersice.cpp.i
+.PHONY : src/exersice.cpp.i
+
+src/exersice.s: src/exersice.cpp.s
+
+.PHONY : src/exersice.s
+
+# target to generate assembly for a file
+src/exersice.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/exersice.cpp.s
+.PHONY : src/exersice.cpp.s
+
+src/hash_map_chaining.o: src/hash_map_chaining.cpp.o
+
+.PHONY : src/hash_map_chaining.o
+
+# target to build an object file
+src/hash_map_chaining.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/hash_map_chaining.cpp.o
+.PHONY : src/hash_map_chaining.cpp.o
+
+src/hash_map_chaining.i: src/hash_map_chaining.cpp.i
+
+.PHONY : src/hash_map_chaining.i
+
+# target to preprocess a source file
+src/hash_map_chaining.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/hash_map_chaining.cpp.i
+.PHONY : src/hash_map_chaining.cpp.i
+
+src/hash_map_chaining.s: src/hash_map_chaining.cpp.s
+
+.PHONY : src/hash_map_chaining.s
+
+# target to generate assembly for a file
+src/hash_map_chaining.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/hash_map_chaining.cpp.s
+.PHONY : src/hash_map_chaining.cpp.s
+
 src/iteration.o: src/iteration.cpp.o
 
 .PHONY : src/iteration.o
@@ -150,6 +312,87 @@ src/iteration.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/iteration.cpp.s
 .PHONY : src/iteration.cpp.s
 
+src/linkedlist_deque.o: src/linkedlist_deque.cpp.o
+
+.PHONY : src/linkedlist_deque.o
+
+# target to build an object file
+src/linkedlist_deque.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_deque.cpp.o
+.PHONY : src/linkedlist_deque.cpp.o
+
+src/linkedlist_deque.i: src/linkedlist_deque.cpp.i
+
+.PHONY : src/linkedlist_deque.i
+
+# target to preprocess a source file
+src/linkedlist_deque.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_deque.cpp.i
+.PHONY : src/linkedlist_deque.cpp.i
+
+src/linkedlist_deque.s: src/linkedlist_deque.cpp.s
+
+.PHONY : src/linkedlist_deque.s
+
+# target to generate assembly for a file
+src/linkedlist_deque.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_deque.cpp.s
+.PHONY : src/linkedlist_deque.cpp.s
+
+src/linkedlist_queue.o: src/linkedlist_queue.cpp.o
+
+.PHONY : src/linkedlist_queue.o
+
+# target to build an object file
+src/linkedlist_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_queue.cpp.o
+.PHONY : src/linkedlist_queue.cpp.o
+
+src/linkedlist_queue.i: src/linkedlist_queue.cpp.i
+
+.PHONY : src/linkedlist_queue.i
+
+# target to preprocess a source file
+src/linkedlist_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_queue.cpp.i
+.PHONY : src/linkedlist_queue.cpp.i
+
+src/linkedlist_queue.s: src/linkedlist_queue.cpp.s
+
+.PHONY : src/linkedlist_queue.s
+
+# target to generate assembly for a file
+src/linkedlist_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_queue.cpp.s
+.PHONY : src/linkedlist_queue.cpp.s
+
+src/linkedlist_stack.o: src/linkedlist_stack.cpp.o
+
+.PHONY : src/linkedlist_stack.o
+
+# target to build an object file
+src/linkedlist_stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_stack.cpp.o
+.PHONY : src/linkedlist_stack.cpp.o
+
+src/linkedlist_stack.i: src/linkedlist_stack.cpp.i
+
+.PHONY : src/linkedlist_stack.i
+
+# target to preprocess a source file
+src/linkedlist_stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_stack.cpp.i
+.PHONY : src/linkedlist_stack.cpp.i
+
+src/linkedlist_stack.s: src/linkedlist_stack.cpp.s
+
+.PHONY : src/linkedlist_stack.s
+
+# target to generate assembly for a file
+src/linkedlist_stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/linkedlist_stack.cpp.s
+.PHONY : src/linkedlist_stack.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -176,6 +419,60 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/my_list.o: src/my_list.cpp.o
+
+.PHONY : src/my_list.o
+
+# target to build an object file
+src/my_list.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/my_list.cpp.o
+.PHONY : src/my_list.cpp.o
+
+src/my_list.i: src/my_list.cpp.i
+
+.PHONY : src/my_list.i
+
+# target to preprocess a source file
+src/my_list.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/my_list.cpp.i
+.PHONY : src/my_list.cpp.i
+
+src/my_list.s: src/my_list.cpp.s
+
+.PHONY : src/my_list.s
+
+# target to generate assembly for a file
+src/my_list.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/my_list.cpp.s
+.PHONY : src/my_list.cpp.s
+
+src/queue.o: src/queue.cpp.o
+
+.PHONY : src/queue.o
+
+# target to build an object file
+src/queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/queue.cpp.o
+.PHONY : src/queue.cpp.o
+
+src/queue.i: src/queue.cpp.i
+
+.PHONY : src/queue.i
+
+# target to preprocess a source file
+src/queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/queue.cpp.i
+.PHONY : src/queue.cpp.i
+
+src/queue.s: src/queue.cpp.s
+
+.PHONY : src/queue.s
+
+# target to generate assembly for a file
+src/queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/queue.cpp.s
+.PHONY : src/queue.cpp.s
 
 src/recursion.o: src/recursion.cpp.o
 
@@ -231,6 +528,33 @@ src/space_complexity.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/space_complexity.cpp.s
 .PHONY : src/space_complexity.cpp.s
 
+src/stack.o: src/stack.cpp.o
+
+.PHONY : src/stack.o
+
+# target to build an object file
+src/stack.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/stack.cpp.o
+.PHONY : src/stack.cpp.o
+
+src/stack.i: src/stack.cpp.i
+
+.PHONY : src/stack.i
+
+# target to preprocess a source file
+src/stack.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/stack.cpp.i
+.PHONY : src/stack.cpp.i
+
+src/stack.s: src/stack.cpp.s
+
+.PHONY : src/stack.s
+
+# target to generate assembly for a file
+src/stack.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/stack.cpp.s
+.PHONY : src/stack.cpp.s
+
 src/time_complexity.o: src/time_complexity.cpp.o
 
 .PHONY : src/time_complexity.o
@@ -257,6 +581,33 @@ src/time_complexity.s: src/time_complexity.cpp.s
 src/time_complexity.cpp.s:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/time_complexity.cpp.s
 .PHONY : src/time_complexity.cpp.s
+
+src/vector_queue.o: src/vector_queue.cpp.o
+
+.PHONY : src/vector_queue.o
+
+# target to build an object file
+src/vector_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/vector_queue.cpp.o
+.PHONY : src/vector_queue.cpp.o
+
+src/vector_queue.i: src/vector_queue.cpp.i
+
+.PHONY : src/vector_queue.i
+
+# target to preprocess a source file
+src/vector_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/vector_queue.cpp.i
+.PHONY : src/vector_queue.cpp.i
+
+src/vector_queue.s: src/vector_queue.cpp.s
+
+.PHONY : src/vector_queue.s
+
+# target to generate assembly for a file
+src/vector_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/src/vector_queue.cpp.s
+.PHONY : src/vector_queue.cpp.s
 
 src/worst_best_time_complexity.o: src/worst_best_time_complexity.cpp.o
 
@@ -294,21 +645,60 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hello_algo"
+	@echo "... src/array_deque.o"
+	@echo "... src/array_deque.i"
+	@echo "... src/array_deque.s"
+	@echo "... src/array_hash_map.o"
+	@echo "... src/array_hash_map.i"
+	@echo "... src/array_hash_map.s"
+	@echo "... src/array_queue.o"
+	@echo "... src/array_queue.i"
+	@echo "... src/array_queue.s"
+	@echo "... src/array_stack.o"
+	@echo "... src/array_stack.i"
+	@echo "... src/array_stack.s"
+	@echo "... src/exersice.o"
+	@echo "... src/exersice.i"
+	@echo "... src/exersice.s"
+	@echo "... src/hash_map_chaining.o"
+	@echo "... src/hash_map_chaining.i"
+	@echo "... src/hash_map_chaining.s"
 	@echo "... src/iteration.o"
 	@echo "... src/iteration.i"
 	@echo "... src/iteration.s"
+	@echo "... src/linkedlist_deque.o"
+	@echo "... src/linkedlist_deque.i"
+	@echo "... src/linkedlist_deque.s"
+	@echo "... src/linkedlist_queue.o"
+	@echo "... src/linkedlist_queue.i"
+	@echo "... src/linkedlist_queue.s"
+	@echo "... src/linkedlist_stack.o"
+	@echo "... src/linkedlist_stack.i"
+	@echo "... src/linkedlist_stack.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/my_list.o"
+	@echo "... src/my_list.i"
+	@echo "... src/my_list.s"
+	@echo "... src/queue.o"
+	@echo "... src/queue.i"
+	@echo "... src/queue.s"
 	@echo "... src/recursion.o"
 	@echo "... src/recursion.i"
 	@echo "... src/recursion.s"
 	@echo "... src/space_complexity.o"
 	@echo "... src/space_complexity.i"
 	@echo "... src/space_complexity.s"
+	@echo "... src/stack.o"
+	@echo "... src/stack.i"
+	@echo "... src/stack.s"
 	@echo "... src/time_complexity.o"
 	@echo "... src/time_complexity.i"
 	@echo "... src/time_complexity.s"
+	@echo "... src/vector_queue.o"
+	@echo "... src/vector_queue.i"
+	@echo "... src/vector_queue.s"
 	@echo "... src/worst_best_time_complexity.o"
 	@echo "... src/worst_best_time_complexity.i"
 	@echo "... src/worst_best_time_complexity.s"

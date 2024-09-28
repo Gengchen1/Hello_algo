@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zgc/Hello_algo/include 
+CXX_INCLUDES = -I/home/zgc/Cpp_code/Hello_algo/include 
 

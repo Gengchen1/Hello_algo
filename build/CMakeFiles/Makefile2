@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zgc/Hello_algo
+CMAKE_SOURCE_DIR = /home/zgc/Cpp_code/Hello_algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zgc/Hello_algo/build
+CMAKE_BINARY_DIR = /home/zgc/Cpp_code/Hello_algo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/Hello_algo.dir/clean
 CMakeFiles/Hello_algo.dir/all:
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/depend
 	$(MAKE) -f CMakeFiles/Hello_algo.dir/build.make CMakeFiles/Hello_algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zgc/Hello_algo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Hello_algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zgc/Cpp_code/Hello_algo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target Hello_algo"
 .PHONY : CMakeFiles/Hello_algo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Hello_algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hello_algo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Hello_algo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zgc/Cpp_code/Hello_algo/build/CMakeFiles 0
 .PHONY : CMakeFiles/Hello_algo.dir/rule
 
 # Convenience name for target.
